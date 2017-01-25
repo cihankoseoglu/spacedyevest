@@ -14,7 +14,7 @@ body {
     body .nav img {
       width: 50px; }
   body .wrapper {
-    margin-top: 10em;
+    margin-top: 4em;
     margin-bottom: 10em;
     margin-left: 2em; }
   body a {
@@ -31,6 +31,18 @@ body {
   body .row {
     margin-top: 0.8em;
     margin-bottom: 0.8em; }
+  body .blog-post {
+    background: rgba(60, 60, 60, 0.8);
+    color: #efefef;
+    text-align: left;
+    width: 800px; }
+  body .blog-header {
+    font-size: 24pt;
+    font-weight: 700; }
+  body .blog-post {
+    font-size: 16pt;
+    font-weight: 300;
+    word-wrap: break-word; }
   body blockquote {
     border-left-style: solid;
     border-left-width: 0.2em;

@@ -9,6 +9,7 @@
 $blue-bg : #20c0d0;
 $white-color : #efefef;
 $black-color: #333333;
+$gray-color: rgba(60,60,60,0.8);
 
 // site scss
 
@@ -35,7 +36,7 @@ body{
 
   .wrapper{
     margin:{
-      top:10em;
+      top:4em;
       bottom:10em;
       left:2em;
     };
@@ -71,6 +72,24 @@ body{
       top:0.8em;
       bottom:0.8em;
     }
+  }
+
+  .blog-post{
+    background: $gray-color;
+    color: $white-color;
+    text-align: left;
+    width: 800px;
+  }
+  .blog-header{
+    font-size: 24pt;
+    font-weight: 700
+  }
+  .blog-post{
+    font-size: 16pt;
+    font-weight: 300;
+    word-wrap: break-word;
+
+
   }
 
   blockquote{
